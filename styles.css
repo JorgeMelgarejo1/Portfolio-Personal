@@ -9,6 +9,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/544/378/non_2x/black-elegant-criss-cross-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
@@ -16,6 +21,11 @@ header {
     background-color: #333;
     color: white;
     width: 100%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/544/378/non_2x/black-elegant-criss-cross-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .profile-pic {
@@ -47,10 +57,16 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.10s ease;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #007BFF;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 section {
@@ -194,18 +210,3 @@ footer ul li a img {
     width: 130px;
     height: 70px;
 }
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-
-
-
-
-
-
-
-
